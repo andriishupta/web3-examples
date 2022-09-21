@@ -1,0 +1,10 @@
+# Node
+node_modules/
+
+# Build
+build/
+dist/
+.next/
+
+# IDE
+.idea

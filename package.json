@@ -1,0 +1,28 @@
+{
+  "name": "web3-examples",
+  "version": "0.0.1",
+  "description": "Examples of how to use web3 tools and libs",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "dev": "turbo run dev"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andriishupta/web3-examples.git"
+  },
+  "author": "Andrii Shupta <andrii.shupta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andriishupta/web3-examples/issues"
+  },
+  "homepage": "https://github.com/andriishupta/web3-examples#readme",
+  "devDependencies": {
+    "turbo": "^1.4.7"
+  }
+}
